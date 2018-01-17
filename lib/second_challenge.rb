@@ -7,7 +7,10 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  all_groceries = []
+  groceries.each do |type,values|
+    all_groceries << values
+  end
+  # puts "******************************#{all_groceries}"
+  all_groceries.flatten
 end
